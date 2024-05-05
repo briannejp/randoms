@@ -5,7 +5,7 @@ const timestamp = _ => new Date().getTime();
 
 // Draw the text function
 function drawText() {
-    ctx.font = '50px Arial';
+    ctx.font = '35px Arial';
     ctx.fillStyle = 'white';
     const text = 'HAPPY BIRDHAY, MANDY!!!';
     const textWidth = ctx.measureText(text).width;
