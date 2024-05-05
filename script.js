@@ -5,9 +5,9 @@ const timestamp = _ => new Date().getTime();
 
 // Draw the text function
 function drawText() {
-    ctx.font = '35px Arial';
+    ctx.font = '30px Arial';
     ctx.fillStyle = 'white';
-    const text = 'HAPPY BIRDHAY, MANDY!!!';
+    const text = 'HAPPY BIRTHDAY, MANDY!!!';
     const textWidth = ctx.measureText(text).width;
     const centerX = (canvas.width - textWidth) / 2;
     const centerY = canvas.height / 2;
