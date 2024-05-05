@@ -7,7 +7,7 @@ const timestamp = _ => new Date().getTime();
 function drawText() {
     ctx.font = '30px Arial';
     ctx.fillStyle = 'white';
-    const text = 'Happy Birthday, Mandy!';
+    const text = 'HAPPY BIRTHDAY, MANDY! :>';
     const textWidth = ctx.measureText(text).width;
     const centerX = (canvas.width - textWidth) / 2;
     const centerY = canvas.height / 2;
